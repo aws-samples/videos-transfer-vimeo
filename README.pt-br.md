@@ -34,7 +34,7 @@ Este projeto demonstra como transferir vídeos de uma conta Vimeo para um bucket
   - Clique em ```Generate```
   - Na aba Personal Access Tokens, copie o valor em ```Token``` para a variável ```VIMEO_TOKEN```
   - Na aba Manage App Secrets, copie o valor em ```Client secrets``` para a variável ```VIMEO_CLIENT_SECRET```
-- ```OPTIONAL_PATH```: caso deseje transferir os vídeos para um caminho específico dentro do bucket, coloque o caminho nessa variável **SEM** as ```/``` no início e no fim
+- ```OPTIONAL_PATH```: caso deseje transferir os vídeos para um caminho específico dentro do bucket, coloque o caminho nessa variável **SEM** as primeira e última ```/``` 
   - Por exemplo: se os vídeos devem ser armazenados em ```/videos/projeto/janeiro/```, o valor em ```OPTIONAL_PATH``` deve ser ```videos/projeto/janeiro```
   
 ## Security
