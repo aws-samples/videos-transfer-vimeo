@@ -32,8 +32,8 @@ This project demonstrates how to transfer videos from a Vimeo account to an Amaz
    - On the same page, under ```Authentication```, select the field ```Authenticated (you) ```
    - Select the ```Public```, ```Private``` and ```Video Files``` scopes
    - Click on ```Generate```
-   - In the Personal Access Tokens tab, copy the value in ```Token``` to the variable ```VIMEO_TOKEN```
-   - In the Manage App Secrets tab, copy the value in ```Client secrets``` to the variable ```VIMEO_CLIENT_SECRET```
+   - In the ```Personal Access Tokens``` tab, copy the value in ```Token``` to the variable ```VIMEO_TOKEN```
+   - In the ```Manage App Secrets``` tab, copy the value in ```Client secrets``` to the variable ```VIMEO_CLIENT_SECRET```
 - ```OPTIONAL_PATH```: if you want to transfer the videos to a specific path within the bucket, put the path in this variable **WITHOUT** the first and last ```/``` 
    - For example: if videos should be stored in ```/videos/project/january/```, the value in ```OPTIONAL_PATH``` must be ```videos/project/january```
  
