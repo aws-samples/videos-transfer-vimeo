@@ -10,7 +10,7 @@ This project demonstrates how to transfer videos from a Vimeo account to an Amaz
 - A bucket in Amazon S3
 ## Step-by-Step
 
-1. Install the necessary libraries using [pip](https://pypi.org/project/pip/): ```pip install boto3 requests dotenv vimeo``` 
+1. Install the necessary libraries using [pip](https://pypi.org/project/pip/): ```pip install boto3 requests python-dotenv vimeo``` 
 2. In the same directory as the python script, create a file called ```.env```, with the following format, and fill in the necessary fields:
  ``` 
  AWS_ACCESS_KEY = ''
