@@ -60,7 +60,7 @@ if __name__ == '__main__':
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
         futures= []
         for i in range(2, total_pages+1):
-            futures.append(executor.submit(client.get('/me/videos', params={"per_page":50, 'page':i})))
+            futures.append(executor.submit(client.get, '/me/videos', params={"per_page":50, 'page':i}))
         for future in concurrent.futures.as_completed(futures):
             videos.extend(future.result().json()['data'])
         for video in videos:
