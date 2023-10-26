@@ -1,0 +1,7 @@
+yarl
+frozenlist
+aiohttp >=3.9.0b0
+boto3
+requests
+python-dotenv
+PyVimeo
